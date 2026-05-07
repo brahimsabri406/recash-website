@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-primary: #1E7F5E;
+  --color-accent: #2A9D78;
+  --color-background: #FFFFFF;
+  --color-foreground: #1A1A1A;
+  --color-foreground-secondary: #6B7280;
+  --color-foreground-tertiary: #9CA3AF;
+  --color-surface-primary: #FFFFFF;
+  --color-surface-secondary: #F9FAFB;
+  --color-surface-tertiary: #F3F4F6;
+  --color-border: #E5E7EB;
+
+  /* Fonts */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400 800;
+    font-display: swap;
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  }
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
