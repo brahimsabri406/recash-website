@@ -162,12 +162,21 @@ export const translations = {
     },
     legalPage: {
       title: 'Mentions légales',
-      editor: 'Éditeur',
-      editorText: 'Recash Inc.\nAdresse : [À compléter]\nEmail : contact@recash.shop',
-      hosting: 'Hébergement',
-      hostingText: 'Railway / Vercel\n[À compléter selon hébergement final]',
-      property: 'Propriété intellectuelle',
-      propertyText: 'Tous les contenus de ce site (textes, images, logos) sont la propriété de Recash Inc.'
+      lastUpdate: 'Dernière mise à jour : 1er mai 2025',
+      editor: '1. Éditeur du site',
+      editorText: 'Recash Inc.\nForme juridique : Société par actions (Canada)\nAdresse : [Votre adresse complète]\nEmail : legal@recash.shop\nTéléphone : [Votre numéro]\nImmatriculation (NEQ) : [Votre numéro NEQ]\nNuméro de TVA (TPS/TVQ) : [Si applicable]\nCapital social : [Montant] $ CAD\nDirecteur de la publication : [Votre prénom et nom]\nResponsable de la rédaction : [Votre prénom et nom]',
+      hosting: '2. Hébergement',
+      hostingText: 'Ce site est hébergé par Railway.\nSociété : Railway Corporation\nAdresse : 548 Market St, PMB 60355, San Francisco, CA 94104, États-Unis\nTéléphone : +1 (415) 555-0000\nEmail : support@railway.com\nURL : railway.app\nAccès 24h/24, 7j/7.',
+      property: '3. Propriété intellectuelle',
+      propertyText: 'L\'ensemble des éléments présents sur ce site (textes, logos, images, icônes, code source, design) sont la propriété exclusive de Recash Inc., sauf mention contraire.\n\nToute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du site, quel que soit le moyen ou le procédé, est interdite, sauf autorisation écrite préalable de Recash Inc.\n\nLes marques citées (Pampers, Danone, Coca-Cola, Nestlé, etc.) sont la propriété de leurs détenteurs respectifs. Leur mention n\'implique aucun partenariat commercial explicite.',
+      dataCollection: '4. Collecte des données personnelles',
+      dataCollectionText: 'Conformément à la loi 25 au Québec et au RGPD pour les utilisateurs européens, Recash collecte :\n• Les tickets scannés (produits, prix, magasins)\n• Les profils utilisateur (allergies, préférences)\n• Les données de localisation (pays uniquement)\n\nCes données sont utilisées pour :\n• Calculer les cashbacks\n• Détecter les allergènes et rappels produits\n• Améliorer l\'application\n\nAucune donnée bancaire n\'est stockée sur nos serveurs (les paiements sont gérés par Stripe et PayPal).\n\nDurée de conservation : 3 ans maximum.',
+      userRights: '5. Vos droits (RGPD / Loi 25)',
+      userRightsText: 'Vous disposez des droits suivants :\n• Droit d\'accès : consulter vos données\n• Droit de rectification : modifier vos informations\n• Droit à l\'effacement : supprimer votre compte et toutes vos données\n• Droit à la portabilité : exporter vos données en format JSON\n• Droit d\'opposition : refuser certains traitements\n\nPour exercer ces droits, contactez-nous à : dpo@recash.shop\nDélai de réponse : 30 jours maximum.',
+      cookies: '6. Cookies et traceurs',
+      cookiesText: 'Ce site utilise des cookies strictement nécessaires au fonctionnement (authentification, mémorisation de la langue). Nous n\'utilisons pas de cookies publicitaires ou de tracking tiers.\n\nVous pouvez gérer vos préférences dans les paramètres de votre navigateur.',
+      applicableLaw: '7. Droit applicable',
+      applicableLawText: 'Les présentes mentions légales sont régies par le droit canadien et, en particulier, par la loi 25 sur la protection des renseignements personnels au Québec. Pour les utilisateurs situés en Europe, le RGPD s\'applique en complément.\n\nTout litige sera porté devant les tribunaux compétents du Québec (Canada).'
     }
   },
   en: {
@@ -333,12 +342,21 @@ export const translations = {
     },
     legalPage: {
       title: 'Legal Notice',
-      editor: 'Publisher',
-      editorText: 'Recash Inc.\nAddress: [To be completed]\nEmail: contact@recash.shop',
-      hosting: 'Hosting',
-      hostingText: 'Railway / Vercel\n[To be completed according to final hosting]',
-      property: 'Intellectual Property',
-      propertyText: 'All content on this site (texts, images, logos) is the property of Recash Inc.'
+      lastUpdate: 'Last updated: May 1, 2025',
+      editor: '1. Publisher',
+      editorText: 'Recash Inc.\nLegal form: Share corporation (Canada)\nAddress: [Your full address]\nEmail: legal@recash.shop\nPhone: [Your number]\nRegistration (NEQ): [Your NEQ number]\nGST/QST number: [If applicable]\nShare capital: [Amount] CAD\nPublication director: [Your full name]\nEditorial manager: [Your full name]',
+      hosting: '2. Hosting',
+      hostingText: 'This site is hosted by Railway.\nCompany: Railway Corporation\nAddress: 548 Market St, PMB 60355, San Francisco, CA 94104, USA\nPhone: +1 (415) 555-0000\nEmail: support@railway.com\nURL: railway.app\n24/7 access.',
+      property: '3. Intellectual property',
+      propertyText: 'All elements on this site (texts, logos, images, icons, source code, design) are the exclusive property of Recash Inc., unless otherwise stated.\n\nAny reproduction, representation, modification, publication, adaptation of all or part of the site\'s elements, by any means or process, is prohibited without prior written permission from Recash Inc.\n\nMentioned trademarks (Pampers, Danone, Coca-Cola, Nestlé, etc.) are the property of their respective owners. Their mention does not imply any explicit commercial partnership.',
+      dataCollection: '4. Personal data collection',
+      dataCollectionText: 'In accordance with Quebec\'s Law 25 and GDPR for European users, Recash collects:\n• Scanned receipts (products, prices, stores)\n• User profiles (allergies, preferences)\n• Location data (country only)\n\nThis data is used to:\n• Calculate cashbacks\n• Detect allergens and product recalls\n• Improve the application\n\nNo banking data is stored on our servers (payments are handled by Stripe and PayPal).\n\nRetention period: 3 years maximum.',
+      userRights: '5. Your rights (GDPR / Law 25)',
+      userRightsText: 'You have the following rights:\n• Right of access: view your data\n• Right of rectification: modify your information\n• Right to erasure: delete your account and all your data\n• Right to data portability: export your data in JSON format\n• Right to object: refuse certain processing\n\nTo exercise these rights, contact us at: dpo@recash.shop\nResponse time: 30 days maximum.',
+      cookies: '6. Cookies and trackers',
+      cookiesText: 'This site uses cookies strictly necessary for operation (authentication, language memory). We do not use advertising or third-party tracking cookies.\n\nYou can manage your preferences in your browser settings.',
+      applicableLaw: '7. Applicable law',
+      applicableLawText: 'These legal notices are governed by Canadian law and, in particular, by Quebec\'s Law 25 on the protection of personal information. For users located in Europe, GDPR applies in addition.\n\nAny dispute will be brought before the competent courts of Quebec (Canada).'
     }
   },
   es: {
@@ -504,12 +522,21 @@ export const translations = {
     },
     legalPage: {
       title: 'Aviso legal',
-      editor: 'Editor',
-      editorText: 'Recash Inc.\nDirección: [Por completar]\nEmail: contact@recash.shop',
-      hosting: 'Alojamiento',
-      hostingText: 'Railway / Vercel\n[Por completar según alojamiento final]',
-      property: 'Propiedad intelectual',
-      propertyText: 'Todo el contenido de este sitio (textos, imágenes, logos) es propiedad de Recash Inc.'
+      lastUpdate: 'Última actualización: 1 de mayo de 2025',
+      editor: '1. Editor del sitio',
+      editorText: 'Recash Inc.\nForma jurídica: Sociedad por acciones (Canadá)\nDirección: [Su dirección completa]\nEmail: legal@recash.shop\nTeléfono: [Su número]\nRegistro (NEQ): [Su número NEQ]\nIVA: [Si aplica]\nCapital social: [Monto] CAD\nDirector de publicación: [Su nombre y apellido]\nResponsable de redacción: [Su nombre y apellido]',
+      hosting: '2. Alojamiento',
+      hostingText: 'Este sitio está alojado por Railway.\nEmpresa: Railway Corporation\nDirección: 548 Market St, PMB 60355, San Francisco, CA 94104, EE. UU.\nTeléfono: +1 (415) 555-0000\nEmail: support@railway.com\nURL: railway.app\nAcceso 24/7.',
+      property: '3. Propiedad intelectual',
+      propertyText: 'Todos los elementos presentes en este sitio (textos, logotipos, imágenes, iconos, código fuente, diseño) son propiedad exclusiva de Recash Inc., salvo indicación en contrario.\n\nQueda prohibida cualquier reproducción, representación, modificación, publicación o adaptación de todo o parte de los elementos del sitio, por cualquier medio o procedimiento, sin autorización previa por escrito de Recash Inc.\n\nLas marcas mencionadas (Pampers, Danone, Coca-Cola, Nestlé, etc.) son propiedad de sus respectivos titulares. Su mención no implica ningún partnership comercial explícito.',
+      dataCollection: '4. Recopilación de datos personales',
+      dataCollectionText: 'De acuerdo con la Ley 25 de Quebec y el RGPD para usuarios europeos, Recash recopila:\n• Tickets escaneados (productos, precios, tiendas)\n• Perfiles de usuario (alergias, preferencias)\n• Datos de ubicación (solo país)\n\nEstos datos se utilizan para:\n• Calcular los cashbacks\n• Detectar alérgenos y alertas de productos\n• Mejorar la aplicación\n\nNo se almacenan datos bancarios en nuestros servidores (los pagos son gestionados por Stripe y PayPal).\n\nPeríodo de conservación: 3 años máximo.',
+      userRights: '5. Sus derechos (RGPD / Ley 25)',
+      userRightsText: 'Usted dispone de los siguientes derechos:\n• Derecho de acceso: consultar sus datos\n• Derecho de rectificación: modificar su información\n• Derecho de supresión: eliminar su cuenta y todos sus datos\n• Derecho a la portabilidad: exportar sus datos en formato JSON\n• Derecho de oposición: rechazar ciertos tratamientos\n\nPara ejercer estos derechos, contáctenos en: dpo@recash.shop\nPlazo de respuesta: 30 días máximo.',
+      cookies: '6. Cookies y rastreadores',
+      cookiesText: 'Este sitio utiliza cookies estrictamente necesarias para el funcionamiento (autenticación, memoria de idioma). No utilizamos cookies publicitarias o de seguimiento de terceros.\n\nPuede gestionar sus preferencias en la configuración de su navegador.',
+      applicableLaw: '7. Legislación aplicable',
+      applicableLawText: 'El presente aviso legal se rige por la legislación canadiense y, en particular, por la Ley 25 de protección de datos personales de Quebec. Para los usuarios situados en Europa, se aplica el RGPD adicionalmente.\n\nCualquier disputa será llevada ante los tribunales competentes de Quebec (Canadá).'
     }
   },
   pt: {
@@ -675,12 +702,21 @@ export const translations = {
     },
     legalPage: {
       title: 'Aviso legal',
-      editor: 'Editor',
-      editorText: 'Recash Inc.\nEndereço: [A completar]\nEmail: contact@recash.shop',
-      hosting: 'Hospedagem',
-      hostingText: 'Railway / Vercel\n[A completar conforme hospedagem final]',
-      property: 'Propriedade intelectual',
-      propertyText: 'Todo o conteúdo deste site (textos, imagens, logos) é propriedade da Recash Inc.'
+      lastUpdate: 'Última atualização: 1 de maio de 2025',
+      editor: '1. Editor do site',
+      editorText: 'Recash Inc.\nForma jurídica: Sociedade por ações (Canadá)\nEndereço: [Seu endereço completo]\nEmail: legal@recash.shop\nTelefone: [Seu número]\nRegistro (NEQ): [Seu número NEQ]\nNIF: [Se aplicável]\nCapital social: [Montante] CAD\nDiretor de publicação: [Seu nome completo]\nResponsável pela redação: [Seu nome completo]',
+      hosting: '2. Hospedagem',
+      hostingText: 'Este site é hospedado pela Railway.\nEmpresa: Railway Corporation\nEndereço: 548 Market St, PMB 60355, San Francisco, CA 94104, EUA\nTelefone: +1 (415) 555-0000\nEmail: support@railway.com\nURL: railway.app\nAcesso 24/7.',
+      property: '3. Propriedade intelectual',
+      propertyText: 'Todos os elementos presentes neste site (textos, logótipos, imagens, ícones, código-fonte, design) são propriedade exclusiva da Recash Inc., salvo indicação em contrário.\n\nÉ proibida qualquer reprodução, representação, modificação, publicação ou adaptação de todo ou parte dos elementos do site, por qualquer meio ou processo, sem autorização prévia por escrito da Recash Inc.\n\nAs marcas mencionadas (Pampers, Danone, Coca-Cola, Nestlé, etc.) são propriedade dos seus respetivos titulares. A sua menção não implica qualquer partnership comercial explícito.',
+      dataCollection: '4. Coleta de dados pessoais',
+      dataCollectionText: 'De acordo com a Lei 25 do Quebec e o RGPD para utilizadores europeus, a Recash coleta:\n• Talões digitalizados (produtos, preços, lojas)\n• Perfis de utilizador (alergias, preferências)\n• Dados de localização (apenas país)\n\nEstes dados são utilizados para:\n• Calcular os cashbacks\n• Detetar alergénios e alertas de produtos\n• Melhorar a aplicação\n\nNenhum dado bancário é armazenado nos nossos servidores (os pagamentos são geridos pela Stripe e PayPal).\n\nPeríodo de conservação: 3 anos máximo.',
+      userRights: '5. Os seus direitos (RGPD / Lei 25)',
+      userRightsText: 'Você dispõe dos seguintes direitos:\n• Direito de acesso: consultar os seus dados\n• Direito de retificação: modificar as suas informações\n• Direito ao apagamento: eliminar a sua conta e todos os seus dados\n• Direito à portabilidade: exportar os seus dados em formato JSON\n• Direito de oposição: recusar determinados tratamentos\n\nPara exercer estes direitos, contacte-nos em: dpo@recash.shop\nPrazo de resposta: 30 dias máximo.',
+      cookies: '6. Cookies e rastreadores',
+      cookiesText: 'Este site utiliza cookies estritamente necessários para o funcionamento (autenticação, memória do idioma). Não utilizamos cookies publicitários ou de rastreamento de terceiros.\n\nPode gerir as suas preferências nas definições do seu navegador.',
+      applicableLaw: '7. Lei aplicável',
+      applicableLawText: 'O presente aviso legal é regido pela legislação canadiana e, em particular, pela Lei 25 do Quebec sobre a proteção de informações pessoais. Para os utilizadores situados na Europa, o RGPD aplica-se adicionalmente.\n\nQualquer litígio será levado aos tribunais competentes do Quebec (Canadá).'
     }
   },
   de: {
@@ -846,12 +882,21 @@ export const translations = {
     },
     legalPage: {
       title: 'Impressum',
-      editor: 'Herausgeber',
-      editorText: 'Recash Inc.\nAdresse: [Zu vervollständigen]\nE-Mail: contact@recash.shop',
-      hosting: 'Hosting',
-      hostingText: 'Railway / Vercel\n[Zu vervollständigen je nach endgültigem Hosting]',
-      property: 'Geistiges Eigentum',
-      propertyText: 'Alle Inhalte dieser Website (Texte, Bilder, Logos) sind Eigentum von Recash Inc.'
+      lastUpdate: 'Letzte Aktualisierung: 1. Mai 2025',
+      editor: '1. Herausgeber der Website',
+      editorText: 'Recash Inc.\nRechtsform: Aktiengesellschaft (Kanada)\nAdresse: [Ihre vollständige Adresse]\nE-Mail: legal@recash.shop\nTelefon: [Ihre Nummer]\nRegistrierung (NEQ): [Ihre NEQ-Nummer]\nSteuernummer: [Falls zutreffend]\nStammkapital: [Betrag] CAD\nVerantwortlich für den Inhalt: [Ihr vollständiger Name]',
+      hosting: '2. Hosting',
+      hostingText: 'Diese Website wird von Railway gehostet.\nUnternehmen: Railway Corporation\nAdresse: 548 Market St, PMB 60355, San Francisco, CA 94104, USA\nTelefon: +1 (415) 555-0000\nE-Mail: support@railway.com\nURL: railway.app\n24/7 Zugang.',
+      property: '3. Geistiges Eigentum',
+      propertyText: 'Alle Elemente dieser Website (Texte, Logos, Bilder, Icons, Quellcode, Design) sind ausschließliches Eigentum von Recash Inc., sofern nicht anders angegeben.\n\nJegliche Vervielfältigung, Darstellung, Änderung, Veröffentlichung oder Anpassung von Teilen oder der gesamten Website ist ohne vorherige schriftliche Genehmigung von Recash Inc. untersagt.\n\nDie genannten Marken (Pampers, Danone, Coca-Cola, Nestlé, etc.) sind Eigentum ihrer jeweiligen Inhaber. Ihre Nennung stellt keine explizite kommerzielle Partnerschaft dar.',
+      dataCollection: '4. Erhebung personenbezogener Daten',
+      dataCollectionText: 'Gemäß dem quebecischen Gesetz 25 und der DSGVO für europäische Benutzer erhebt Recash:\n• Gescannte Belege (Produkte, Preise, Geschäfte)\n• Benutzerprofile (Allergien, Präferenzen)\n• Standortdaten (nur Land)\n\nDiese Daten werden verwendet für:\n• Berechnung von Cashbacks\n• Erkennung von Allergenen und Produktrückrufen\n• Verbesserung der Anwendung\n\nEs werden keine Bankdaten auf unseren Servern gespeichert (Zahlungen werden über Stripe und PayPal abgewickelt).\n\nAufbewahrungsdauer: maximal 3 Jahre.',
+      userRights: '5. Ihre Rechte (DSGVO / Gesetz 25)',
+      userRightsText: 'Sie haben folgende Rechte:\n• Recht auf Auskunft: Einsicht in Ihre Daten\n• Recht auf Berichtigung: Änderung Ihrer Informationen\n• Recht auf Löschung: Löschung Ihres Kontos und aller Ihrer Daten\n• Recht auf Datenübertragbarkeit: Export Ihrer Daten im JSON-Format\n• Recht auf Widerspruch: Ablehnung bestimmter Verarbeitungen\n\nUm diese Rechte auszuüben, kontaktieren Sie uns unter: dpo@recash.shop\nAntwortfrist: maximal 30 Tage.',
+      cookies: '6. Cookies und Tracker',
+      cookiesText: 'Diese Website verwendet ausschließlich notwendige Cookies für den Betrieb (Authentifizierung, Sprachspeicherung). Wir verwenden keine Werbe- oder Drittanbieter-Tracking-Cookies.\n\nSie können Ihre Präferenzen in den Einstellungen Ihres Browsers verwalten.',
+      applicableLaw: '7. Geltendes Recht',
+      applicableLawText: 'Dieses Impressum unterliegt dem kanadischen Recht und insbesondere dem quebecischen Gesetz 25 zum Schutz personenbezogener Daten. Für Benutzer in Europa gilt zusätzlich die DSGVO.\n\nStreitigkeiten werden vor die zuständigen Gerichte Quebecs (Kanada) gebracht.'
     }
   }
 };
